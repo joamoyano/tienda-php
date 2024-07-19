@@ -1,0 +1,115 @@
+.hero {
+    
+    background-size: cover;
+    background-position: center;
+    height: 180px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+.hero h1 {
+    font-size: 4rem;
+
+}
+.nav{
+    background-color: rgb(4,7,13);
+}
+.td{
+    background-color: whitesmoke;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+.card{
+    min-height: 450px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.table-wrapper {
+    overflow-x: auto;
+}
+.table thead th {
+    background-color: #e3e4e6;
+    border-color: black;
+}
+.table thead td {
+    background-color: #e3e4e6;
+}
+.btn-sm {
+    margin: 0 2px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    --s: 37px; /* control the size */
+  
+    --c: #0000, #282828 0.5deg 119.5deg, #0000 120deg;
+    --g1: conic-gradient(from 60deg at 56.25% calc(425% / 6), var(--c));
+    --g2: conic-gradient(from 180deg at 43.75% calc(425% / 6), var(--c));
+    --g3: conic-gradient(from -60deg at 50% calc(175% / 12), var(--c));
+    background: var(--g1), var(--g1) var(--s) calc(1.73 * var(--s)), var(--g2),
+      var(--g2) var(--s) calc(1.73 * var(--s)), var(--g3) var(--s) 0,
+      var(--g3) 0 calc(1.73 * var(--s)) #1e1e1e;
+    background-size: calc(2 * var(--s)) calc(3.46 * var(--s));
+    font-family: "Roboto Mono", monospace;
+  }
+
+.container{
+    color : whitesmoke;
+}
+
+.card{
+    color :#282828
+}
+form {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    color:#1e1e1e
+}
+footer {    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.card {
+    box-sizing: border-box;
+    width: 350px;
+    height: 254px;
+    background: whitesmoke;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+  }
+  .card img{
+    border-radius: 17px;
+  }
+  
+  .card:hover {
+    border: 1px solid black;
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+  tbody{
+    color:#282828;
+    background-color: whitesmoke;
+  }
